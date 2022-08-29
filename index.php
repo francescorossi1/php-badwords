@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Badwords</title>
-</head>
-<body>
-    
-</body>
-</html>
+<?php
+$paragraph = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+Tenetur, animi saepe consequuntur, temporibus architecto molestias, quod vel pariatur natus nisi odit?';
+$paragraph_len = strlen($paragraph);
+
+echo $paragraph . '<br>' . $paragraph_len;
+?>
